@@ -1,0 +1,7 @@
+h1{background-color: coral; text-align: left;
+color: white;}
+h2{color: red;}
+p{color: blue;}
+.back{background-color: red; color: white;}
+.next{background-color: green; color: white; position: relative; text-align: justify;}
+.sumario{background-color: blue; color: white;}
