@@ -1,0 +1,50 @@
+.simples{background-color: lightcyan;
+text-align: center;
+border: 1px solid black;
+position: relative;
+}
+.simples:hover{background-color: rgb(139, 240, 139); 
+color: black;
+font-weight: bolder;
+ text-decoration: underline;
+}
+
+
+.unsee{display: inline-block;
+background-color: lightcyan;
+text-align: center;
+height: 200px;
+width: 200px;
+border: 1px solid black; 
+position: relative;
+left: 472px;}
+
+.unsee:hover {background-color: rgb(139, 240, 139);
+color: black;
+font-weight: bolder; 
+text-decoration: underline;
+}
+.cut{background-color: rgb(139, 240, 139);
+color: white;
+display: inline;}
+
+#see{background-color: lightcyan;
+text-align: center;
+border: 1px solid black;
+height: 50px;
+width: 50px;
+left: 700px;
+top: 100px;
+position: relative;}
+
+#see:hover{background-color:rgb(139, 240, 139) ;
+color:black;
+font-weight: bold;
+text-decoration: underline;
+animation: ani 20s linear;
+}
+@keyframes ani {
+from{left: 700px;}
+to{left: 1900px;}
+
+}
