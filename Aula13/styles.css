@@ -1,0 +1,33 @@
+*{margin: 0;
+padding: 0;}
+
+.tudo{background-color: chocolate;
+    position: absolute;
+    height: 599px;
+    width: 1366px;
+}
+
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .honk{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+      text-align: center;
+      font-size: 50px;
+  }
+  
+  .paragrafo{
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: end;
+  }
