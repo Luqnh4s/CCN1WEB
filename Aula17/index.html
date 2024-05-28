@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula17</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+        <form>
+            <h1>Formulário</h1>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu Nome"><br>
+
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="Sobrenome" id="sobrenome" placeholder="Digite seu Sobrenome"><br>
+
+            <label for="Email">Email</label>
+            <input type="text" name="Email" id="email" placeholder="Digite seu E-mail"><br>
+
+            <label for="DataNascimento"></label>
+            <input type="date" name="DataNascimento" id="datanascimento"> <br>
+
+            <label for="Região" >Região</label><br>
+            <select name="Regiao" id="regiao">
+            <option value="Brasil">Brasil</option>
+            <option value="Estados-Unidos">Estados Unidos</option>
+            <option value="Paraguai">Paraguai</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Australia">Australia</option>
+            <option value="Portugal">Portugal</option>
+            
+            </select>
+            <button onclick="enviar()">Enviar</button>
+                </form>
+
+    <script type="text/javascript">
+function enviar(){
+var nome = document.getElementById('nome').value
+var sobrenome = document.getElementById('sobrenome').value
+
+window.alert('Muito Prazer '+ nome +' '+ sobrenome + ' Cadastro Enviado com SUCESSO!')
+}
+
+    </script>
+</body>
+</html>
